@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table {
+    width: 1280px;
+    border-collapse: collapse;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+  
+th {
+    background-color: #24A2AD;
+    color: #fff;
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
+
+td:last-of-type {
+  text-align: center;
+}
+
+tbody > tr:nth-of-type(even) {
+  background-color: rgb(237 238 242);
+}
+
+/* Cor de fundo para a coluna de ID */
+td:nth-child(1) {
+    background-color: #24A2AD; 
+    color: #fff;
+}
+
+h3 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+    color: #24A2AD;
+}
+
+/* Responsividade */
+
+@media (max-width: 900px) { 
+    table {
+        width: 800px;
+        border-collapse: collapse;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+        color: #24A2AD;
+    }
+ }
+
+@media (max-width: 480px) { 
+    table {
+        width: 350px;
+        border-collapse: collapse;
+        font-size: .8rem;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+        margin-bottom: 3rem;
+        color: #24A2AD;
+    }
+ }
+
+@media (max-width: 320px) { 
+    table {
+        width: 300px;
+        border-collapse: collapse;
+        font-size: .8rem;
+        font-weight: bold;
+    }
+
+    h3 {
+        font-size: 1.3rem;
+        margin-bottom: 3rem;
+        color: #24A2AD;
+    }
+ }
