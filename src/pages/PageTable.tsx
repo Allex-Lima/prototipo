@@ -1,12 +1,13 @@
-import Table from '../components/table/Table';
-import datasProducts from '../database/data.json';
-
+import Table from "../components/table/Table";
+import datasProducts from "../database/data.json";
+import NewSideBar from "../components/Sidebar/index";
 const PageTable = () => {
   return (
     <div>
-     <Table produtos={datasProducts.produtos}/>
+      <NewSideBar />
+      <Table produtos={datasProducts.produtos} />
     </div>
-  )
-}
+  );
+};
 
-export default PageTable
+export default PageTable;
