@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 // Pages
 import PageLogin from "./pages/PageLogin";
 import PageTable from "./pages/PageTable";
-import NewSideBar from "./components/Sidebar/index";
+
 function App() {
   return (
     <div className="App">
